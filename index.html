@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador de texto</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>
+</head>
+
+<body>
+    <img src="images/logo.svg" class="logo">
+    <main>
+        <textarea name="textarea" id="textarea" class="textarea" placeholder="Ingrese el texto aqui!"></textarea>
+        <p class="info-arribabotones"><i class="bi bi-exclamation-circle"></i> Solo letras minusculas y sin acentos.</p>
+        <div class="frame">
+            <button class="encriptar" form="textarea">Encriptar</button>
+            <button class="desencriptar"  form="textarea">Desencriptar</button>
+        </div>
+        <div class="rectangulo">
+            <img src="images/muneco.svg" alt="" class="muneco">
+            <h3 class="titulo-muneco">Ningun mensaje fue encontrado</h3>
+            <p class="parrafo-muneco">Ingresa el texto que desees encriptar o desencriptar.</p>
+            <button class="copiar" style="display: none;">Copiar</button>
+        </div>
+    </main>
+    <footer>
+        <h1 class="texto-piedepagina">&copy; Copyright Raul Hayos - 2022</h1>
+        <a href="https://www.linkedin.com/in/ra%C3%BAl-hayos-22430419a/"><img src="images/linkedin.png" alt="linkedin" class="linkedin"></a>
+        <a href="https://github.com/hayos7"><img src="images/github.png" alt="github" class="github"></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
